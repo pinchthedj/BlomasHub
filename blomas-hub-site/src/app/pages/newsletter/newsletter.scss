@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+}
+
+.newsletter {
+    max-width: 900px;
+    height: 70vh;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter_header {
+    background: linear-gradient(135deg, #ee191b, #ff5d5d);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.newsletter_header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.newsletter_header p {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.newsletter_content {
+    max-height: 65%;
+    overflow-y: auto;
+    padding: 25px;
+}
+
+.event_card {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event_card img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.event_details {
+    padding: 20px;
+}
+
+.event_tag {
+    display: inline-block;
+    background: #fff3e0;
+    color: #e85a2a;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event_details h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.event_date {
+    color: #777;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 3px 5px;
+    background: #ee191b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff5d5d;
+}
+
+/* Custom Scrollbar */
+.newsletter_content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.newsletter_content::-webkit-scrollbar-thumb {
+    background: #ee191b;
+    border-radius: 10px;
+}
+
+.newsletter_content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}

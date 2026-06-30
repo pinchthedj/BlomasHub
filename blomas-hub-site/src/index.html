@@ -1,5 +1,11 @@
+<script>
+  function home() {
+    window.location.href = '/';
+  }
+</script>
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>BlomasHubSite</title>
@@ -7,20 +13,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <div class="header">
-    <img src="/assets/bh_logo_black.png" alt="Logo" class="logo" onclick="home()">
+    <img src="/logos/bh_logo_black.png" alt="Logo" class="logo" onclick="home()">
   </div>
   <app-root></app-root>
-<footer>
-  <div class="navigation">
-    <nav>
-      <a href="/about">About</a>
-      <a href="/clothing">Clothing</a>
-      <a href="/football">Football</a>
-      <a href="/newsletter">Newsletter</a>
-    </nav>
-  </div>
+ <footer>
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h3>⚽ Your Brand</h3>
+            <p>Football. Fashion. Community.</p>
+        </div>
+
+        <nav>
+            <a href="/about">About</a>
+            <a href="/clothing">Clothing</a>
+            <a href="/football">Football</a>
+            <a href="/newsletter">Newsletter</a>
+        </nav>
+
+        <div class="footer-bottom">
+            © 2026 Your Brand. All Rights Reserved.
+        </div>
+
+    </div>
 </footer>
 </body>
+
 </html>
