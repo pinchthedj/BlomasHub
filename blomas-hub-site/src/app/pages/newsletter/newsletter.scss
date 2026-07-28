@@ -2,12 +2,11 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f6f8;
     margin: 0;
-    padding: 40px;
+    padding: 20px;
 }
 
 .newsletter {
-    max-width: 900px;
-    height: 70vh;
+    height: 100vh;
     margin: auto;
     background: #fff;
     border-radius: 12px;
@@ -18,7 +17,7 @@ body {
 }
 
 .newsletter_header {
-    background: linear-gradient(135deg, #ee191b, #ff5d5d);
+    background: linear-gradient(135deg, #ee191b, #ff8c8c);
     color: white;
     text-align: center;
     padding: 5px;

@@ -1,3 +1,75 @@
-<div class="content">
+<div class="clothing">
+    <div class="clothing_header"></div>
+    <h1>
+        Blomas Hub
+        <br>
+        Apparel Drop 2 !!!
+    </h1>
+    <section class="clothing-section">
+        <div class="clothing-grid">
 
+            <div class="clothing-item">
+                <h2>The BH Hoodie</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="slideshow-container glass-panel">
+
+                                <button (click)="prevHoodie()" class="nav-btn">⇦</button>
+                                <img [src]="hoodies[currentHoodieIndex]"
+                                    [alt]=" hoodieDescriptions [currentHoodieIndex]" class="clothing-img">
+                                <button (click)="nextHoodie()" class="nav-btn">➪</button>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span class="event_tag">OUT NOW !!!</span>
+                            <p>Comfortable and stylish hoodie for all seasons.</p>
+                            <a href="https://www.quicket.co.za/organisers/83793-blomas-hub" class="btn">Get Yours</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="clothing-item">
+                <h2>Blomas Hub T-Shirt</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <button (click)="prevShirt()" class="nav-btn">⇦</button>
+                            <img [src]="shirts[currentShirtIndex]" alt="Cool Blomas Hub T-Shirt" class="clothing-img">
+                            <button (click)="nextShirt()" class="nav-btn">➪</button>
+                        </td>
+                        <td>
+                            <span class="event_tag">OUT NOW !!!</span>
+                            <p>Classic t-shirt with the Blomas Hub logo.</p>
+                            <a href="https://www.quicket.co.za/organisers/83793-blomas-hub" class="btn">Get Yours</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="clothing-item">
+                <h2>Blomas Hub Head Wear</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="slideshow-container glass-panel">
+
+                                <button (click)="prevHeadWear()" class="nav-btn">⇦</button>
+                                <img [src]="headWear[currentHeadIndex]" [alt]="headWearDescriptions[currentHeadIndex]"
+                                    class="clothing-img">
+                                <button (click)="nextHeadWear()" class="nav-btn">➪</button>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span class="event_tag">OUT NOW !!!</span>
+                            <p>Stylish cap to complete your look.</p>
+                            <a href="https://www.quicket.co.za/organisers/83793-blomas-hub" class="btn">Get Yours</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
 </div>

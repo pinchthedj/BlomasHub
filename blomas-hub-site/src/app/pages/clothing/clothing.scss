@@ -1,0 +1,72 @@
+.clothing {
+    //  height: 100vh;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0.5rem 1rem;
+    background: #ee191b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff5d5d;
+}
+
+.nav-btn {
+    display: inline-block;
+    background: #ff2323 ;
+    color:  #fff3e0 ;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: none;
+}
+
+.nav-btn:hover {
+    background: #fff3e0;
+    color: #e85a2a;
+}
+
+h1 {
+    background: linear-gradient(135deg, #ee191b, #ffa0a0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px 12px 0 0;
+}
+
+.clothing-section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.clothing-img {
+    width: 45vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.event_tag {
+    display: inline-block;
+    background: #fff3e0;
+    color: #e85a2a;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
